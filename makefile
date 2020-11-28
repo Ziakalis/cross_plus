@@ -47,4 +47,4 @@ create_dirs :
 
 .PHONY : upload
 upload:
-	git push --force $(PROJECT_NAME) master
+	git push

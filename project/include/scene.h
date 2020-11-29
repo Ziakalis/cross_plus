@@ -5,7 +5,9 @@
 struct rect
 {
     int x1, x2, y1, y2;
-    bool actived;
+    int xc, yc;
+    bool actived_beg;
+    bool actived_end;
 };
 
 class scene
@@ -26,6 +28,7 @@ public:
     int pos_line_end_x, pos_line_end_y;
 
     rect p1n1, p1n2, p2n1, p2n2;
+    strategy stg;
 
 public:
     scene(int w, int h);

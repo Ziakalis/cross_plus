@@ -4,7 +4,8 @@ enum strategy
     l_plus_l,
     l_plus_r,
     r_plus_l,
-    r_plus_r
+    r_plus_r,
+    idel
 };
 
 class cross_plus_core

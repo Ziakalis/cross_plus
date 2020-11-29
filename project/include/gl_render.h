@@ -17,5 +17,7 @@ void on_mouse_move(int x, int y);
 void on_size_change(int w, int h);
 
 // Assistent Functions
-void draw_text(GLint x, GLint y, char *s, GLfloat r, GLfloat g, GLfloat b);
+void begin_text();
+void end_text();
+void draw_text(GLint x, GLint y, char *s, GLfloat r, GLfloat g, GLfloat b, void *font);
 
